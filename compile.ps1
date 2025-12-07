@@ -187,10 +187,10 @@ function MixTogether {
     Remove-Item .\old-install -Recurse -Force
 }
 
-# ClearInstallDir
-# Update
-# CompileAndInstallSDL
-# CompileAndInstallSDLImage
-# CompileAndInstallSDLFont
-# CompileAndInstallSDLMixer
+ClearInstallDir
+Update
+CompileAndInstallSDL
+CompileAndInstallSDLImage
+CompileAndInstallSDLFont
+CompileAndInstallSDLMixer
 MixTogether
